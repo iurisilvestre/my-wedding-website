@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>M & I</title>
+    <link rel="icon" type="image/svg+xml" href="/img//favicon.svg" />
+    <link rel="alternate icon" href="/img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <!-- LOADER -->
+
+    <div class="loading-logo">
+      <img src="/img/loading_logo.gif" alt="" />
+    </div>
+
+    <!-- HEADER -->
+    <header id="header">
+      <nav class="navbar" id="navbar">
+        <div class="logo-circular">
+          <a href="#header">
+            <img src="/img/logo_circular_mi.svg" alt="" />
+          </a>
+        </div>
+        <ul>
+          <li><a href="#welcome" class="menu-link">bem-vindo!</a></li>
+          <li><a href="#cerimonia" class="menu-link">cerimónia</a></li>
+          <li><a href="#local" class="menu-link">local</a></li>
+          <li><a href="#normas" class="menu-link">normas</a></li>
+          <li><a href="#presentes" class="menu-link">presentes</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-nav">
+        <div class="mobile__logo">
+          <a href="#header">
+            <img src="/img/logo_circular_mi.svg" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="hamburguer">
+        <ul class="hamburguer-btn">
+          <li class="hamburguer-line"></li>
+          <li class="hamburguer-line"></li>
+          <li class="hamburguer-line"></li>
+          <li class="hamburguer-line"></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="logo-main" data-aos="fade-in" data-aos-delay="600">
+          <img src="/img/hero-title.svg" alt="Marina e Iuri" />
+        </div>
+        <figure class="bg-leaves">
+          <img
+            id="bg-leaves-1"
+            class="bg-img"
+            src="/img/leaves-1.svg"
+            alt="Olive Leaves"
+          />
+          <img
+            id="bg-leaves-2"
+            class="bg-img"
+            src="/img/leaves-2.svg"
+            alt="Olive Leaves"
+          />
+        </figure>
+      </div>
+      <figure class="bg-elements">
+        <img id="bg-element-1" class="bg-img" src="/img/bg-element-1.svg" />
+        <img id="bg-element-2" class="bg-img" src="/img/bg-element-1.svg" />
+      </figure>
+      <div class="expand">
+        <a href="#welcome" class="expand__icon active"
+          ><span class="material-icons">expand_more</span></a
+        >
+      </div>
+    </section>
+
+    <!-- WELCOME -->
+
+    <section class="welcome" id="welcome">
+      <img
+        class="title-img"
+        src="/img/leaves-3.svg"
+        alt=""
+        data-aos="fade-up"
+      />
+      <h2 data-aos="fade-up">Bem-vindo ao nosso casamento</h2>
+      <p data-aos="fade-up">
+        Criámos este site para partilhar convosco os detalhes do nosso grande
+        dia!
+      </p>
+      <div class="img-parallax" data-aos="fade-up" data-aos-delay="200"></div>
+    </section>
+
+    <!-- CERIMONIA -->
+
+    <section id="cerimonia" class="cerimonia">
+      <div>
+        <h3 class="section-title">cerimónia</h3>
+      </div>
+      <div class="date" data-aos="fade-up">
+        <div id="week-day" class="date-item">
+          <h3>sábado</h3>
+        </div>
+        <img
+          class="img-element date-item"
+          id="img-element-left"
+          src="/img/element.svg"
+          alt=""
+        />
+        <div class="middle-items date-item">
+          <h3 id="day">28</h3>
+          <h3 id="month">ago</h3>
+          <h3 id="time">13 horas</h3>
+        </div>
+        <img
+          class="img-element date-item"
+          id="img-element-right"
+          src="/img/element.svg"
+          alt=""
+        />
+        <div id="year" class="date-item">
+          <h3>2021</h3>
+        </div>
+      </div>
+      <figure class="bg-elements">
+        <img
+          id="cerimonia-bg-img"
+          class="bg-img"
+          src="/img/bg-element-1.svg"
+          alt=""
+        />
+      </figure>
+    </section>
+
+    <!-- LOCAL -->
+
+    <section id="local" class="local">
+      <div class="container" data-aos="fade-up">
+        <h3 class="section-title">Local</h3>
+        <p>Alcobaça, terra de paixão!</p>
+        <div class="adress">
+          <h2>Challet Fonte Nova</h2>
+          <p>Rua da Fonte Nova 8</p>
+          <p>2460-046 Alcobaça</p>
+        </div>
+        <a
+          href="https://challetfontenova.pt/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button class="btn">Conhecer</button>
+        </a>
+
+        <div id="google-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3076.528433359398!2d-8.983092912512246!3d39.54769085070534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18a5d95d8e83fb%3A0x7eac5972303d756a!2sChallet%20Fonte%20Nova!5e0!3m2!1sen!2spt!4v1627596143778!5m2!1sen!2spt"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <img
+        id="img-challet"
+        class="bg-img"
+        src="/img/watercolor-challet.webp"
+        alt=""
+      />
+    </section>
+
+    <!-- NORMAS -->
+
+    <section class="normas">
+      <div id="normas" class="leaves-sep">
+        <img class="leaves-sep" src="/img/leaves-4.svg" alt="" />
+      </div>
+      <div class="container-normas" data-aos="fade-up">
+        <div class="border-normas">
+          <h3 class="section-title">normas</h3>
+          <h4>Tendo em conta a situação pandémica actual:</h4>
+          <ul>
+            <li class="norma">
+              <img class="img-norma" src="/img/leaves-5.svg" alt="" />
+              <p>
+                Se tiveres mais de 12 anos leva o Certificado Digital ou um
+                Comprovativo de Teste negativo - em alternativa envia-nos por
+                email ou Whatsapp
+              </p>
+            </li>
+            <li class="norma">
+              <img class="img-norma" src="/img/leaves-5.svg" alt="" />
+              <p>Desinfecta as mãos regularmente ao longo do dia</p>
+            </li>
+            <li class="norma">
+              <img class="img-norma" src="/img/leaves-5.svg" alt="" />
+              <p>
+                Usa a máscara sempre que não estiveres a deliciar-te com as
+                maravilhas gastronómicas que escolhemos
+              </p>
+            </li>
+            <li class="norma">
+              <img class="img-norma" src="/img/leaves-5.svg" alt="" />
+              <p>Não fiques parado, dança muito e diverte-te 😀</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESENTES -->
+
+    <section id="presentes" class="presentes-section">
+      <h3 class="section-title">presentes</h3>
+      <div class="presentes-title" data-aos="fade-up">
+        <img class="title-img" src="/img/leaves-3.svg" alt="" />
+        <div class="presentes-subtitle">
+          <p>Vamos rumar à Grécia!</p>
+          <p>Queres ajudar o nosso mealheiro?</p>
+        </div>
+        <button id="btn-modal-open" class="btn">Ajudar</button>
+      </div>
+      <div class="contacts">
+        <div class="form-col-l" data-aos="fade-up" data-aos-delay="400">
+          <img src="/img/watercolor-greece.webp" alt="" />
+        </div>
+        <div
+          class="contact-form form-col-r"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          <form id="form" name="form">
+            <p>Deixa-nos uma mensagem!</p>
+            <div class="input-box">
+              <label class="label" for="name">nome</label>
+              <input
+                class="input-form"
+                id="name"
+                type="text"
+                name="name"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label class="label" for="email">email</label>
+              <input
+                class="input-form"
+                id="email"
+                type="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="textbox">
+              <label class="label textbox-label" for="mensagem">mensagem</label>
+            </div>
+            <textarea id="mensagem" name="message" required></textarea>
+            <div class="form-alert">
+              <!-- <p>mensagem enviada</p> -->
+            </div>
+            <button class="btn" type="submit">Enviar</button>
+          </form>
+          <img class="bg-img" src="/img/leaves-2.svg" alt="Olive Leaves" />
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+
+    <div id="modal" class="modal-bg">
+      <div class="modal">
+        <h3>Ajuda-nos com uma contribuição para o nosso Mealheiro!</h3>
+        <div class="modal-pagamentos">
+          <div class="opcao-pagamento">
+            <img class="img-pagamentos" src="/img/leaves-5.svg" alt="" />
+            <p>opção 1</p>
+          </div>
+          <div class="iban">
+            <p class="transferencia-box">transferência bancária</p>
+            <div>
+              <p id="iban">IBAN: XXXX XXXX XXXX XXXX XXXX XXXX X</p>
+            </div>
+            <p id="swift">BIC/SWIFT: XXXXXXXX</p>
+          </div>
+          <div class="opcao-pagamento">
+            <img class="img-pagamentos" src="/img/leaves-5.svg" alt="" />
+            <p>opção 2</p>
+          </div>
+          <div class="mbway">
+            <img src="/img/512px-Logo_MBWay.svg.png" alt="" />
+            <div class="modal-contactos">
+              <p>Marina: XXX XXX XXX</p>
+              <p>Iúri: XXX XXX XXX</p>
+            </div>
+          </div>
+        </div>
+        <button id="btn-modal-close" class="btn">Fechar</button>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer-img" data-aos="fade-up">
+        <img src="/img/logo_circular_mi.svg" alt="" />
+      </div>
+      <div class="countdown" data-aos="fade-up">
+        <p class="countdown-title">faltam</p>
+        <div class="countdown-container">
+          <div class="countdown-box">
+            <p id="days" class="count-number">31</p>
+            <p class="box-label">dias</p>
+          </div>
+          <p class="divider"></p>
+          <div class="countdown-box">
+            <p id="hours" class="count-number">31</p>
+            <p class="box-label">horas</p>
+          </div>
+          <p class="divider"></p>
+          <div class="countdown-box">
+            <p id="minutes" class="count-number">31</p>
+            <p class="box-label">min</p>
+          </div>
+          <p class="divider"></p>
+          <div class="countdown-box">
+            <p id="seconds" class="count-number">31</p>
+            <p class="box-label">seg</p>
+          </div>
+        </div>
+      </div>
+      <p class="footer-license">©iurisdesign - 2021</p>
+    </footer>
+
+    <button id="btn-scroll-to-top">
+      <span class="material-icons">arrow_upward</span>
+    </button>
+
+    <script src="mains.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+        once: true,
+      });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3V8LTRJEHF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-3V8LTRJEHF");
+    </script>
+  </body>
+</html>
